@@ -1,0 +1,3 @@
+<launch>
+<node pkg="freicar_object_detection" type="rospubsub.py" name="bounding_box" output="screen"/>
+</launch>
