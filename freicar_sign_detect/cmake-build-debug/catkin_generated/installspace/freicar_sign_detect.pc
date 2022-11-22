@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: freicar_sign_detect
+Description: Description of freicar_sign_detect
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: image_transport sensor_msgs cv_bridge roscpp freicar_common
